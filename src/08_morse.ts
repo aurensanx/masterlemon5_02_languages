@@ -106,5 +106,5 @@ class Transmitter {
     }
 }
 
-const transmitter = new Transmitter();
-transmitter.transmitMessage("aa a a");
+// const transmitter = new Transmitter();
+// transmitter.transmitMessage("aa a a");

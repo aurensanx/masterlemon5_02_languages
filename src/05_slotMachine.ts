@@ -7,7 +7,7 @@ class SlotMachine {
     play: () => void = () => {
         this.coinCount++;
         this.roulettes = this.roulettes.map(this.generateRandomBoolean);
-        if (this.roulettes.every((r) => r)) {
+        if (this.roulettes.every(r => r)) {
             console.log(`Congratulations!!! You won ${this.coinCount} coins!!`);
             this.coinCount = 0;
         } else {
