@@ -3,7 +3,7 @@ interface Book {
     isRead: boolean;
 }
 
-const isBookRead = (books: Book[], title: string): boolean => books.some((b) => b.title === title && b.isRead);
+const isBookRead = (books: Book[], title: string): boolean => books.some(b => b.title === title && b.isRead);
 
 
 //TESTS
